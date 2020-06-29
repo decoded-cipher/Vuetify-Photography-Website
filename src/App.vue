@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar>
+    <v-app-bar color="white" app flat>
       <Header />
     </v-app-bar>
 
@@ -9,6 +9,7 @@
       <Gallery />
       <LatestPost />
     </v-content>
+
   </v-app>
 </template>
 
