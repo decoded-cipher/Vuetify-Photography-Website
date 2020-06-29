@@ -10,6 +10,10 @@
       <LatestPost />
     </v-content>
 
+  <v-footer>
+    <Footer />
+  </v-footer>
+
   </v-app>
 </template>
 
@@ -18,13 +22,16 @@
   import Hero from "./components/Hero";
   import Gallery from "./components/Gallery";
   import LatestPost from "./components/LatestPost";
+  import Footer from "./components/Footer";
+
   export default {
     name: "App",
     components: {
       Header,
       Hero,
       Gallery,
-      LatestPost
+      LatestPost,
+      Footer
     },
     data: () => ({
       //

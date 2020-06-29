@@ -13,13 +13,9 @@
                             <div>{{ item.description }}</div>
                         </v-card-text>
                         <v-card-actions>
-                            <v-btn color="orange" text>
-                                Share
-                            </v-btn>
+                            <v-btn color="orange" text>Share</v-btn>
 
-                            <v-btn color="primary" text>
-                                Explore
-                            </v-btn>
+                            <v-btn color="primary" text>Explore</v-btn>
                         </v-card-actions>
                     </v-card>
                 </v-col>
