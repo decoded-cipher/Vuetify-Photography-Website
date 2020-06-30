@@ -6,15 +6,15 @@
 
       <toolbar-items class="hidden-xs-only">
         <v-btn text>
-          <router-link to="/">Home</router-link>
+          <router-link class="black--text" to="/">Home</router-link>
         </v-btn>
 
         <v-btn text>
-          <router-link to="/about">About</router-link>
+          <router-link class="black--text" to="/about">About</router-link>
         </v-btn>
 
         <v-btn text>
-          <router-link to="/contact">Contact</router-link>
+          <router-link class="black--text" to="/contact">Contact</router-link>
         </v-btn>
       </toolbar-items>
 
