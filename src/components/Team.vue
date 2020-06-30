@@ -3,7 +3,7 @@
         <v-container>
             <h2 class="text-center">Our Teams</h2>
             <v-row>
-                <v-col v-for="item in items" :key="item.id" cols="4">
+                <v-col v-for="item in items" :key="item.id" cols="12" sm="4">
                     <v-card flat class="mx-auto">
                         <v-img class="white--text align-end"
                             :src = item.src>
