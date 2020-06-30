@@ -15,6 +15,7 @@
       <v-btn text>
         <router-link to="/contact">Contact</router-link>
       </v-btn>
+      
     </v-toolbar>
   </v-container>
 </template>
