@@ -3,7 +3,7 @@
         <v-footer padless>
             <v-card flat tile class="text-center">
                 <v-card-text>
-                    <v-btn v-for="icon in icons" :key="icon" class="mx-5" icon>
+                    <v-btn v-for="icon in icons" :key="icon" class="mx-6" icon>
                         <v-icon size="30px">{{ icon }}</v-icon>
                     </v-btn>
                 </v-card-text>
@@ -36,8 +36,9 @@
         'mdi-instagram',
         'mdi-twitter',
         'mdi-linkedin',
-        'mdi-github'
-      ],
+        'mdi-github',
+        'mdi-youtube'
+      ]
     })
     }
 </script>
